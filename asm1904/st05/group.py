@@ -1,4 +1,10 @@
 import pickle
+<<<<<<< HEAD
+=======
+import os
+import random
+
+>>>>>>> 335c8a6aaec1a18bef19978431ab2be820ab812b
 from .Worker import Seller
 from .Worker import Manager
 from .Worker import Cleaner
