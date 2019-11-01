@@ -12,13 +12,17 @@ class Worker():
 		self.IO_behaviour = IO_behaviour
 
 	def execute(self):
+<<<<<<< HEAD
         self.human_behaviour.execute(self.Surname)
+=======
+                self.human_behaviour.execute(self.Surname)
+>>>>>>> 335c8a6aaec1a18bef19978431ab2be820ab812b
 
-    def read():
-    	self.IO_behaviour = read(self)
+        def read():
+    	        self.IO_behaviour = read(self)
 
-    def write():
-    	self.IO_behaviour = write(self)
+        def write():
+    	        self.IO_behaviour = write(self)
     	
 class WorkerBehaviour():
 	def execute(self, Name):
