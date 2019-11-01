@@ -1,8 +1,7 @@
 import pickle
-import os
-import random
-
-from .Worker import Seller, Manager, Cleaner
+from .Worker import Seller
+from .Worker import Manager
+from .Worker import Cleaner
 
 class group:
     def __init__(self):
